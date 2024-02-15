@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link  rel="stylesheet" href="style.css">
+        <script src="action.js"></script>
+
+    </head>
+    <body>
+
+    <fieldset >
+        <legend>Login</legend>
+        <br/>
+        <form name="form">
+        <input type="text" placeholder="Enter your Email" id="email" onchange="onEmail()"> 
+        <br/> <br/>
+        <input type="text" placeholder="Password" id="password"  onchange="onPass()"> 
+        <br/><br/>
+        <input type="text" placeholder="Number" id="number"  onchange="onNum()"> 
+        <br/><br/>
+        <label for="country">Choose a car:</label>
+        <br/>
+        <select name="country" id="country"  onchange="onSelect()">
+            <option value="Jordan">Jordan</option>
+            <option value="Palestine">Palestine</option>
+            <option value="Saudi Arabia">Saudi Arabia</option>
+            </select>
+            <br/><br/>
+            <input type="submit" name="login" value="Login" id="logg" onclick="onButton()">
+
+        </form>
+        </fieldset>
+    
+
+    </body>
+    <footer>
+
+    </footer>
+</html>
